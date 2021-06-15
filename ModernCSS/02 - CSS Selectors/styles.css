@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+}
+p {
+  margin: 25px;
+}
+.header {
+  /* This is a comment inside of a rule */
+  background-color: red;
+}

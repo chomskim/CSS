@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --text-color: red;
+  --brand-color: #3fa2d9;
+  --primary-border-color: red;
+  --primary-border-style: solid;
+  --primary-border-width: 3px;
+  --primary-border: var(--primary-border-width) var(--primary-border-style)
+    var(--primary-border-color);
+  --row-height: 1.5rem;
+  --visible-rows: 3;
+}
+/*#div1 {
+  background-color: red;
+}
+
+#div2 {
+  background-color: green;
+}*/
+
+/*div {
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+  border: 2px solid black;
+}*/
+
+.box {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: 2px solid red;
+}
+.container {
+  background-color: var(--brand-color);
+  width: 10rem;
+  overflow: auto;
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  border: var(--primary-border);
+  height: calc(var(--row-height) * var(--visible-rows));
+}
+.box1 {
+  background-color: skyblue;
+}
+.box2 {
+  background-color: lime;
+}
+.highlight {
+  background-color: yellow;
+  display: inline-block;
+  width: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.container .banner {
+  background-color: #999999;
+  width: 15rem;
+}

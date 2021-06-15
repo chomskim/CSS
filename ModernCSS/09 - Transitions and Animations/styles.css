@@ -1,0 +1,61 @@
+button {
+  color: white;
+}
+button.fancy-button {
+  background: blue;
+  transition-property: background-color, transform;
+  transition-duration: 500ms, 500ms;
+  transition-delay: 0ms, 500ms;
+}
+button.fancy-button:hover {
+  background: red;
+  transform: scale(1.1);
+}
+@keyframes colors {
+  0% {
+    background: red;
+  }
+  50% {
+    background: blue;
+  }
+  100% {
+    background: green;
+  }
+}
+.box {
+  animation: colors 2s;
+  width: 10rem;
+  height: 10rem;
+}
+@keyframes color {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: blue;
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate {
+  animation: color 5s alternate infinite, spin 2s linear infinite;
+  width: 10rem;
+  height: 10rem;
+}
+.loader {
+  width: 10rem;
+  height: 10rem;
+  background: skyblue;
+  animation: spin 500ms linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .loader {
+    animation: none;
+  }
+}

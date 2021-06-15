@@ -1,0 +1,60 @@
+div {
+  border: 3px solid currentColor;
+  font-size: 2rem;
+}
+.one {
+  color: red;
+}
+.two {
+  color: blue;
+}
+.underline {
+  text-decoration: underline;
+}
+.strikethrough {
+  text-decoration: line-through;
+}
+.none {
+  text-decoration: none;
+}
+.solid {
+  text-decoration: underline solid blue;
+}
+.double {
+  text-decoration: underline double green;
+}
+.dotted {
+  text-decoration: underline dotted;
+}
+.dashed {
+  text-decoration: underline dashed purple;
+}
+.wavy {
+  text-decoration: underline wavy red;
+}
+/*.hello {
+  font-variant: small-caps;
+  letter-spacing: 5px;
+}*/
+.my-text {
+  border: 1px solid red;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 10rem;
+}
+.container {
+  border: 2px dashed blue;
+  width: 20rem;
+  text-align: center;
+}
+.hello {
+  border: 2px solid red;
+  font-size: 2rem;
+  vertical-align: middle;
+}
+.world {
+  border: 2px solid red;
+  font-size: 4rem;
+  vertical-align: middle;
+}
