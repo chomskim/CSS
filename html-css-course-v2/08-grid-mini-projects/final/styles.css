@@ -23,7 +23,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Fira Code", monospace;
+  font-family: 'Fira Code', monospace;
   color: var(--mainBlack);
   background: var(--mainWhite);
   line-height: 1.5;
@@ -135,7 +135,7 @@ p {
 @media screen and (min-width: 768px) {
   .hero-header {
     background: linear-gradient(rgb(241, 80, 37, 0.75), rgba(0, 0, 0, 0.75)),
-      url("./images/image-2.jpeg") center/cover fixed no-repeat;
+      url('./images/image-2.jpeg') center/cover fixed no-repeat;
   }
   .hero-banner h1 {
     font-size: 4rem;
@@ -234,14 +234,15 @@ p {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 200px);
     grid-template-areas:
-      "a a a b"
-      "a a a c"
-      "d d d d "
-      "e f f f"
-      "e g h i";
+      'a a a b'
+      'a a a c'
+      'd d d d '
+      'e f f f'
+      'e g h i';
   }
   .tiles img {
     height: 100%;
+    object-fit: cover;
   }
   .tile-1 {
     grid-area: a;
